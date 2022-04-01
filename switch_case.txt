@@ -4,13 +4,19 @@ switch (i)
 		food = "ramen";
 		break;
 	case 1:
-		food = "spaghetti";
+		food = "sushi";
 		break;
 	case 2:
-		food = "salad";
+		food = "curry";
 		break;
 	case 3:
 		food = "French fries";
+		break;
+	case 4:
+		food = "ice cream";
+		break;
+	case 5:
+		food = "melon";
 		break;
 }
 Console.WriteLine("Random recommendation:" + food + ".");
